@@ -1,0 +1,10 @@
+{
+    "source": {        
+        "exclude": [
+           "node_modules",
+           "libs",
+           "bin",
+           "db"
+        ]
+    }
+}

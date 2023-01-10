@@ -1,0 +1,295 @@
+<div id="help" class="helpContent">
+   <div id="about" hidden="true">
+      %appTitle% (%runtime%)<br/>
+      %runtimeDetails%<br/>
+      %databaseInfo%<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_account_password" hidden="true">
+      Enter a secure password or passphrase for the new account.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_account_type" hidden="true">
+      Select the cryptocurrency type for the new account.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="new_account_btc_test3" hidden="true">
+      A new Bitcoin testnet address / account has been created:<br/>
+      <br/>
+      <b>%address%</b><br/>
+      <br/>
+      You now need to deposit some funds to this address / account before you can begin playing.<br/>
+      <br/>
+      <button id="" onclick="ui.copyToClipboard('%address%')">Click here to copy the address to the clipboard... </button><br/>
+      <br/>
+      ... then deposit to the new address from one of the following faucets:<br/>
+      <br/>
+      <a href="https://coinfaucet.eu/en/btc-testnet/" target="_blank">https://coinfaucet.eu/en/btc-testnet/</a><br/>
+      <a href="https://testnet-faucet.mempool.co/" target="_blank">https://testnet-faucet.mempool.co</a><br/>
+      <a href="http://bitcoinfaucet.uo1.net/" target="_blank">http://bitcoinfaucet.uo1.net/</a><br/>
+      <br/>
+      <b>A deposit transfer fee of %depositfee% satoshis will be deducted from the deposit.</b><br/>
+      <br/>
+      You can check the status of the deposit using blockchain explorers such as:<br/>
+      <br/>
+      <a href="https://www.blockchain.com/btctest/address/%address%" target="_blank">https://www.blockchain.com/btctest/address/%address%</a><br/>
+      <a href="https://live.blockcypher.com/btc-testnet/address/%address%" target="_blank">https://live.blockcypher.com/btc-testnet/address/%address%</a><br/>
+      <br/>
+      When the transaction is confirmed, <button onclick="location.reload()">refresh/reload</button> this page to complete the deposit.<br/>
+      <br/>
+      Any help button (<button class="helpButton">?</button>) elsewhere in the interface will display related help information.<br/>
+   </div>
+   <div id="new_account_bch_test" hidden="true">
+      A new Bitcoin Cash testnet address / account has been created:<br/>
+      <br/>
+      <b>%address%</b><br/>
+      <br/>
+      You now need to deposit some funds to this address / account before you can begin playing.<br/>
+      <br/>
+      <button id="" onclick="ui.copyToClipboard('%address%')">Click here to copy the address to the clipboard... </button><br/>
+      <br/>
+      ... then deposit to the new address from one of the following faucets:<br/>
+      <br/>
+      <a href="https://developer.bitcoin.com/faucets/bch/" target="_blank">https://developer.bitcoin.com/faucets/bch/</a><br/>
+      <a href="https://coinfaucet.eu/en/bch-testnet/" target="_blank">https://coinfaucet.eu/en/bch-testnet/</a><br/>
+      <br/>
+      <b>A deposit transfer fee of %depositfee% satoshis will be deducted from the deposit.</b><br/>
+      <br/>
+      You can check the status of the deposit using blockchain explorers such as:<br/>
+      <br/>
+      <a href="https://explorer.bitcoin.com/tbch/address/%address%" target="_blank">https://explorer.bitcoin.com/tbch/address/%address%</a><br/>
+      <a href="https://blockexplorer.one/bitcoin-cash/testnet/address/%address%" target="_blank">https://blockexplorer.one/bitcoin-cash/testnet/address/%address%</a><br/>
+      <br/>
+      When the transaction is confirmed, <button onclick="location.reload()">refresh/reload</button> this page to complete the deposit.<br/>
+      <br/>
+      Any help button (<button class="helpButton">?</button>) elsewhere in the interface will display related help information.<br/>
+   </div>
+   <div id="new_account_btc" hidden="true">
+      A new Bitcoin address / account has been created:<br/>
+      <br/>
+      <b>%address%</b><br/>
+      <br/>
+      You now need to deposit some funds to this address / account before you can begin playing.<br/>
+      <br/>
+      <button id="" onclick="ui.copyToClipboard('%address%')">Click here to copy the address to the clipboard... </button><br/>
+      <br/>
+      ... then deposit to the new address from your Bitcoin wallet or wallet service.<br/>
+      <br/>
+      You can check the status of the deposit using blockchain explorers such as:<br/>
+      <br/>
+      <a href="https://www.blockchain.com/btc/address/%address%" target="_blank">https://www.blockchain.com/btc/address/%address%</a><br/>
+      <a href="https://live.blockcypher.com/btc/address/%address%" target="_blank">https://live.blockcypher.com/btc/address/%address%</a><br/>
+      <br/>
+      <b>A deposit transfer fee of %depositfee% satoshis will be deducted from the deposit.</b>
+      <br/>
+      <br/>
+      When the transaction is confirmed, <button onclick="location.reload()">refresh</button> this page to complete the deposit.<br/>
+      <br/>
+      Any help button (<button class="helpButton">?</button>) elsewhere in the interface will display related help information.<br/>
+   </div>
+   <div id="new_account_bch" hidden="true">
+      A new Bitcoin address / account has been created:<br/>
+      <br/>
+      <b>%address%</b><br/>
+      <br/>
+      You now need to deposit some funds to this address / account before you can begin playing.<br/>
+      <br/>
+      <button id="" onclick="ui.copyToClipboard('%address%')">Click here to copy the address to the clipboard... </button><br/>
+      <br/>
+      ... then deposit to the new address from your Bitcoin Cash wallet or wallet service.<br/>
+      <br/>
+      You can check the status of the deposit using blockchain explorers such as:<br/>
+      <br/>
+      <a href="https://explorer.bitcoin.com/bch/address/%address%" target="_blank">https://explorer.bitcoin.com/bch/address/%address%</a><br/>
+      <a href="https://blockdozer.com/address/%address%" target="_blank">https://blockdozer.com/address/%address%</a><br/>
+      <br/>
+      <b>A deposit transfer fee of %depositfee% satoshis will be deducted from the deposit.</b>
+      <br/>
+      <br/>
+      When the transaction is confirmed, <button onclick="location.reload()">refresh</button> this page to complete the deposit.<br/>
+      <br/>
+      Any help button (<button class="helpButton">?</button>) elsewhere in the interface will display related help information.<br/>
+   </div>
+   <div id="select_copy_account" hidden="true">
+      Use the selection box on the left to choose an account for game play, <br/>
+      cash outs, or transfers.<br/>
+      <br/>
+      Click on the clipboard button on the right to copy the account address to the<br/>
+      system clipboard. You can use the copied address to check on the status of a<br/>
+      deposit or transfer using a third-party service.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="manage_copy_account" hidden="true">
+      The address displayed is the currently selected and logged-in account.<br/>
+      Click on the clipboard button on the right to copy the account address to the<br/>
+      system clipboard.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="account_balance" hidden="true">
+      This area displays your current account balance.<br/>
+      <br/>
+      If a deposit has been made but not yet confirmed, the balance will display 0.<br/>
+      Refresh the page to see the new balance once the deposit is confirmed.<br/>
+      <br/>
+      If there's a problem retrieving the account balance it will be "unavailable".<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="account_password" hidden="true">
+      Use this field to enter the password associated with the selected account.<br/>
+      <br/>
+      If saving of account passwords is enabled (default), the password for an account<br/>
+      is automatically entered here when the account is selected.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="use_create_account" hidden="true">
+      Click on the "USE ACCOUNT" button to use the selected account with the<br/>
+      specified "Password" to create or join a table.<br/>
+      <br/>
+      Click on the "CREATE NEW ACCOUNT" to create a new cryptocurrency account<br/>
+      (you will be taken to a new form).<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="cashout_account" hidden="true">
+      Use this feature to send some or all of the selected account's balance to another address.<br/>
+      <br/>
+      Enter the amount to send in the "Amount" field, in satoshis.<br/>
+      <br/>
+      Enter the recipient address in the "Address" field.<br/>
+      <br/>
+      The final input field (Miner Fee), will be automatically filled with the recommended<br/>
+      optimal miner fee, in satoshis, for the transaction. You can change this value but be aware<br/>
+      that it may affect the time required for the transaction to be included in a block.<br/>
+      <br/>
+      When the required information has been entered, click the "CASH OUT / WITHDRAW" button on the left.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="transfer_account" hidden="true">
+      Use this feature to transfer some or all of the selected account's balance to another account.<br/>
+      <br/>
+      Enter the amount to transfer in the "Amount" field, in satoshis.
+      <br/>
+      Enter the recipient account address in the "Account" field. The account address<br/>
+      <i>must</i> be one created by this account system.<br/>
+      <br/>
+      When the required information has been entered, click the "TRANSFER" button on the left.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_form" hidden="true">
+      This form is used to create a new table (game).<br/>
+      <br/>
+      As the table's creator you will automatically join it and begin advertising
+      it to other players.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_player_alias" hidden="true">
+      Enter your desired player alias (name) in this field.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_name" hidden="true">
+      Enter a descriptive name for the table (game) in this field.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_num_players" hidden="true">
+      Enter the required number of players, including yourself, that must join the table<br/>
+      in order for the game to begin.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_buyin" hidden="true">
+      Enter the required buy-in, in satoshis, for each player joining this table (game).<br/>
+      <br/>
+      Once all required players have joined, this amount is subtracted from their accounts<br/>
+      and transferred to in-game balances managed by an associated game contract<br/>
+      until either the hand is completed or a player times out.<br/>
+      <br/>
+      When a hand (game) is restarted, this process is repeated.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_bigblind" hidden="true">
+      Enter the amount, in satoshis, to be posted by the big blind for this table.<br/>
+      <br/>
+      This amount must be less than or equal to the buy-in.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_smallblind" hidden="true">
+      Enter the amount, in satoshis, to be posted by the small blind for this table.<br/>
+      <br/>
+      This amount must be less than or equal to the big blind amount.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_timeout" hidden="true">
+      Enter the inactivity timeout amount, in seconds, to use for this table.<br/>
+      <br/>
+      When a player fails to perform an action before the timeout elapses the game ends and the player is penalized.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="create_table_button" hidden="true">
+      Click on this button when all of the above fields have been correctly completed in order<br/>
+      to create the new table and automatically start advertising it to other players.<br/>
+      <br/>
+      Once the required number of players has joined the table, the buy-in amount is automatically<br/>
+      subtracted from their accounts and transfered to their in-game balance where it's managed<br/>
+      by the associated game contract.<br/>
+      <br/>
+      The contract handles the in-game balances until either a winner(s) is determined or<br/>
+      a player times out.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="join_table_player_alias" hidden="true">
+      Enter the desired player alias (name) for the game you wish to join in this field.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="join_table_list" hidden="true">
+      Any tables created and advertised by other players will appear below the <b>Join Table</b> header.<br/>
+      <br/>
+      Once you've reviewed the information, click on the desired table to join it.<br/>
+      <br/>
+      When the required number of players have joined the table, the game will automatically begin.<br/>
+      <br/>
+      The advertised buy-in amount will be subtracted from your selected account and<br/>
+      transferred to an in-game balance where it'll be handled by an associated game contract until<br/>
+      the hand (game) has either completed or a player has timed out.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="game_buttons" hidden="true">
+      Use the number field on the left to enter an amount to bet or raise, in satoshis, then<br/>
+      click the "BET" button. A bet/raise/call amount is automatically entered for you based<br/>
+      on the current state of the game.<br/>
+      <br/>
+      You may fold by clicking on the "FOLD" button when it's your turn.<br/>
+      <br/>
+      A new hand may be dealt by clicking on the "NEW HAND" button when the previous<br/>
+      hand has completed and you're the next dealer. The same table parameters as the previous hand<br/>
+      are used to start the new hand.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+   <div id="game_hand_history" hidden="true">
+      This area displays a history of completed hands (games).<br/>
+      <br/>
+      Winning hand(s) and associated player(s) are displayed in order<br/>
+      from oldest to newest.<br/>
+      <br/>
+      <button id="helpClose" class="helpContentButton" onclick="ui.onHelpButtonClick('close')">OKAY</button>
+   </div>
+</div>
