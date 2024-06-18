@@ -56,7 +56,7 @@
     "electron": "^9.1.0",
     "request": "^2.87.0",
     "request-progress": "^3.0.0",
-    "ws": "^5.2.0",
+    "ws": "^8.17.1",
     "big-integer": "^1.6.36",
     "bitcoinjs-lib": "^4.0.1",
     "bitcoin-core": "^2.0.0",
